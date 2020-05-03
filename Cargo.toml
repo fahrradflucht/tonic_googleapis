@@ -1,4 +1,5 @@
 [workspace]
 members = [
+  "builder",
   "tonic_datastore_v1"
 ]
