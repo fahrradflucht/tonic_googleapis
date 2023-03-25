@@ -1,8 +1,8 @@
 [package]
 name = "builder"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Mathis Wiehl (@fahrradflucht) <mail@mathiswiehl.de>"]
 edition = "2018"
 
 [dependencies]
-tonic-build = "0.2.0"
+tonic-build = "0.8.4"

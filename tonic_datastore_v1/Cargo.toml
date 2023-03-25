@@ -1,7 +1,7 @@
 [package]
 name = "tonic_datastore_v1"
 description = "Tonic based gRPC client for Google Cloud datastore.v1"
-version = "0.1.0+3562b6cb3"
+version = "0.2.0+3562b6cb3"
 license = "Apache-2.0"
 repository = "https://github.com/fahrradflucht/tonic_googleapis/"
 authors = ["Mathis Wiehl (@fahrradflucht) <mail@mathiswiehl.de>"]
@@ -10,6 +10,6 @@ keywords = ["cloud-datastore", "google-cloud", "grpc", "client-library", "tonic"
 edition = "2018"
 
 [dependencies]
-prost = "0.6.1"
-prost-types = "0.6.1"
-tonic = "0.2.0"
+prost = "0.11.8"
+prost-types = "0.11.8"
+tonic = "0.8.3"
